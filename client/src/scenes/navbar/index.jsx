@@ -26,7 +26,7 @@ import { setMode, setLogout } from "state";
 import { useNavigate } from "react-router-dom";
 import FlexBetween from "components/FlexBetween";
 
-const Navbar = (props) => {
+const Navbar = () => {
   const [isMobileMenuToggled, setIsMobileMenuToggled] = useState(false);
   const dispatch = useDispatch();
   const navigate = useNavigate();
@@ -58,7 +58,7 @@ const Navbar = (props) => {
             },
           }}
         >
-          {props.title}
+          Post Now !
         </Typography>
         {isNonMobileScreens && (
           <FlexBetween
