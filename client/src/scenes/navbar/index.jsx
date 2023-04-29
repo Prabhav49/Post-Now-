@@ -50,6 +50,7 @@ const Navbar = () => {
           fontWeight="bold"
           fontSize="clamp(1rem, 2rem, 2.25rem)"
           color="primary"
+          marginTop="1rem"
           onClick={() => navigate("/home")}
           sx={{
             "&:hover": {
@@ -58,7 +59,7 @@ const Navbar = () => {
             },
           }}
         >
-          Post Now !
+          <img src="http://localhost:3001/assets/navLogo.png" alt="Logo"/>
         </Typography>
         {isNonMobileScreens && (
           <FlexBetween
@@ -81,6 +82,7 @@ const Navbar = () => {
           <IconButton onClick={() => dispatch(setMode())}>
             {theme.palette.mode === "dark" ? (
               <DarkMode sx={{ fontSize: "25px" }} />
+              
             ) : (
               <LightMode sx={{ color: dark, fontSize: "25px" }} />
             )}
