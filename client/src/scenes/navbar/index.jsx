@@ -25,6 +25,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { setMode, setLogout } from "state";
 import { useNavigate } from "react-router-dom";
 import FlexBetween from "components/FlexBetween";
+import { BASE_URL } from "helper";
 
 const Navbar = () => {
   const [isMobileMenuToggled, setIsMobileMenuToggled] = useState(false);
@@ -59,7 +60,7 @@ const Navbar = () => {
             },
           }}
         >
-          <img src="http://localhost:3001/assets/navLogo.png" alt="Logo"/>
+          <img src= {`${BASE_URL}/assets/navLogo.png`} alt="Logo"/>
         </Typography>
         {isNonMobileScreens && (
           <FlexBetween
