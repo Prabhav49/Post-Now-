@@ -48,3 +48,5 @@
 - **Search:** Users can search for posts by keywords, categories, and hashtags.
 
 - **Notification:** Users receive notifications for likes, comments, and new followers
+
+- **Uploading Post from any Directory:** User can upload or use images from anywhere not only from the assest folder. This will be done using the database, by creating seperate collection of images.
