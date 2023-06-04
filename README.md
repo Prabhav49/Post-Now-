@@ -7,6 +7,9 @@
 ## WebSite Link
 https://post-now-say-it-social.netlify.app/
 
+## API Documentation
+https://documenter.getpostman.com/view/27643465/2s93m7WguD
+
 ## Features
 **"Post Now"** offers the following features to its users:
 
