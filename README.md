@@ -2,8 +2,10 @@
 
 "Post Now" is a social media application developed using MERN (MongoDB, Express.js, React, and Node.js) stack. The application is designed to allow users to post their thoughts, ideas, and opinions on various topics and share them with their friends and the wider online community.
 
-
 ![Logo](./server/public/assets/navLogo.png)
+
+## WebSite Link
+https://post-now-say-it-social.netlify.app/
 
 ## Features
 **"Post Now"** offers the following features to its users:
