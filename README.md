@@ -11,17 +11,17 @@ https://post-now-say-it-social.netlify.app/
 https://documenter.getpostman.com/view/27643465/2s93m7WguD
 
 ## Features
-**"Post Now"** offers the following features to its users:
+***"Post Now"*** offers the following features to its users:
 
-- **User Authentication and Authorization:** Users can sign up and log in using their email address and password. The application employs JWT (JSON Web Token) for user authentication and authorization.
+- ***User Authentication and Authorization:*** Users can sign up and log in using their email address and password. The application employs JWT (JSON Web Token) for user authentication and authorization.
 
-- **Post Creation:** Users can create posts with text, images, and links. 
+- ***Post Creation:*** Users can create posts with text, images, and links. 
 
-- **Post feed:** Users can view posts from people they follow on their newsfeed. 
+- ***Post feed:*** Users can view posts from people they follow on their newsfeed. 
 
-- **Like and Comment:** Users can like and comment on posts. They can also reply to comments.
+- ***Like and Comment:*** Users can like and comment on posts. They can also reply to comments.
 
-- **Follow and Unfollow:** Users can follow and unfollow other users.
+- ***Follow and Unfollow:*** Users can follow and unfollow other users.
 
 ## Screenshots
 
@@ -38,20 +38,20 @@ https://documenter.getpostman.com/view/27643465/2s93m7WguD
 
 
 ## Technology Stack:
-**"Post Now"** is developed using the MERN stack, which includes:
+***"Post Now"*** is developed using the MERN stack, which includes:
 
-- **MongoDB:** The database used to store user information, posts, and other data.
-- **Express.js:** The web framework used to build the backend server.
-- **React:** The frontend library used to build the user interface.
-- **Node.js:** The runtime environment used to execute server-side JavaScript.
+- ***MongoDB:*** The database used to store user information, posts, and other data.
+- ***Express.js:*** The web framework used to build the backend server.
+- ***React:*** The frontend library used to build the user interface.
+- ***Node.js:*** The runtime environment used to execute server-side JavaScript.
 
 ## Future Scope:
-- **Admin Panel:** The application has an admin panel where the administrator can manage users, posts, categories, and other settings.
+- ***Admin Panel:*** The application has an admin panel where the administrator can manage users, posts, categories, and other settings.
 
-- **Profile Management:** Users can update their profiles by adding their profile picture, name, and bio.
+- ***Profile Management:*** Users can update their profiles by adding their profile picture, name, and bio.
 
-- **Search:** Users can search for posts by keywords, categories, and hashtags.
+- ***Search:*** Users can search for posts by keywords, categories, and hashtags.
 
-- **Notification:** Users receive notifications for likes, comments, and new followers
+- ***Notification:*** Users receive notifications for likes, comments, and new followers
 
-- **Uploading Post from any Directory:** User can upload or use images from anywhere not only from the assest folder. This will be done using the database, by creating seperate collection of images.
+- ***Uploading Post from any Directory:*** User can upload or use images from anywhere not only from the assest folder. This will be done using the database, by creating seperate collection of images.
